@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "gIg"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dye",
+            "data": 5
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_helmet"
+        }
+    },
+    "result": {
+        "item": "vaerenthitems:crown",
+        "count": 1
+    }
+}

@@ -1,14 +1,14 @@
 [
 {
-  "modid": "basemod",
-  "name": "Base mod",
-  "description": "A base mod adding nothing which allows players to do nothing.",
+  "modid": "vaerenthitems",
+  "name": "Vaerenth Items",
+  "description": "A custom mod made for the staff of The Land of Vaerenth",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://minecraft.curseforge.com/members/itsmeow/projects",
   "updateUrl": "",
-  "authorList": ["its_meow"],
-  "credits": "its_meow: for making this base mod",
+  "authorList": ["CodaBear", "its_meow"],
+  "credits": "CodaBear: Comission, Art; its_meow: Programming",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

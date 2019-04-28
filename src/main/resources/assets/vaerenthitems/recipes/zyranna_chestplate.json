@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "g g",
+        "iIi",
+        "ggg"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_chestplate"
+        }
+    },
+    "result": {
+        "item": "vaerenthitems:zyranna_chestplate",
+        "count": 1
+    }
+}
