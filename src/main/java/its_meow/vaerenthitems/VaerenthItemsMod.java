@@ -20,7 +20,8 @@ public class VaerenthItemsMod {
 	public static final ItemZyrannaArmor leggings = new ItemZyrannaArmor("zyranna_leggings", EntityEquipmentSlot.LEGS);
 	public static final ItemZyrannaArmor boots = new ItemZyrannaArmor("zyranna_boots", EntityEquipmentSlot.FEET);
 	public static final ItemSword zyranna_sword = (ItemSword) new ItemSword(ToolMaterial.DIAMOND).setRegistryName(Ref.MODID, "zyranna_sword").setTranslationKey("vaerenthitems.zyranna_sword").setCreativeTab(CreativeTabs.COMBAT);
-    public static final Item[] items = {zyranna_sword, crown, chestplate, leggings, boots};
+	public static final ItemSword walter_sword = (ItemSword) new ItemSword(ToolMaterial.DIAMOND).setRegistryName("vaerenthitems", "walter_sword").setTranslationKey("vaerenthitems.walter_sword").setCreativeTab(CreativeTabs.COMBAT);
+	public static final Item[] items = {walter_sword, zyranna_sword, crown, chestplate, leggings, boots};
 	
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
