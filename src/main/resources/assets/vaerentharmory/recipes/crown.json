@@ -1,24 +1,23 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "I",
-        "/"
+        " # ",
+        "gIg"
     ],
     "key": {
         "#": {
             "item": "minecraft:dye",
             "data": 5
         },
-        "I": {
-            "item": "minecraft:iron_sword"
+        "g": {
+            "item": "minecraft:gold_ingot"
         },
-        "/": {
-            "item": "minecraft:stick"
+        "I": {
+            "item": "minecraft:iron_helmet"
         }
     },
     "result": {
-        "item": "vaerenthitems:zyranna_sword",
+        "item": "vaerentharmory:crown",
         "count": 1
     }
 }

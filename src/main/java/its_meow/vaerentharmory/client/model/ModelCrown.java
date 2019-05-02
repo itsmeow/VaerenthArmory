@@ -1,4 +1,4 @@
-package its_meow.vaerenthitems.client.model;
+package its_meow.vaerentharmory.client.model;
 
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;

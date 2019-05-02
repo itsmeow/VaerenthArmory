@@ -1,7 +1,7 @@
-package its_meow.vaerenthitems.client;
+package its_meow.vaerentharmory.client;
 
-import its_meow.vaerenthitems.VaerenthItemsMod;
-import its_meow.vaerenthitems.Ref;
+import its_meow.vaerentharmory.Ref;
+import its_meow.vaerentharmory.VaerenthArmoryMod;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -15,7 +15,7 @@ public class ClientHandler {
     
     @SubscribeEvent
     public static void modelRegister(ModelRegistryEvent e) {
-        for(Item item : VaerenthItemsMod.items) {
+        for(Item item : VaerenthArmoryMod.items) {
             initModel(item, 0);
         }
     }

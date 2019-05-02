@@ -10,9 +10,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "1.0.1"
-group = "its_meow.vaerenthitems"
-archivesBaseName = "vaerenthitems"
+version = "1.0.0"
+group = "its_meow.vaerentharmory"
+archivesBaseName = "vaerentharmory"
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {

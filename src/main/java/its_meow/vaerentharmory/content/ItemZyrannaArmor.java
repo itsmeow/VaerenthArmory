@@ -1,6 +1,6 @@
-package its_meow.vaerenthitems.content;
+package its_meow.vaerentharmory.content;
 
-import its_meow.vaerenthitems.Ref;
+import its_meow.vaerentharmory.Ref;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -11,7 +11,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ItemZyrannaArmor extends ItemArmor {
 
     public ItemZyrannaArmor(String name, EntityEquipmentSlot slot) {
-        super(EnumHelper.addArmorMaterial("zyranna", "vaerenthitems:zyranna", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F), -1, slot);
+        super(EnumHelper.addArmorMaterial("zyranna", "vaerentharmory:zyranna", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F), -1, slot);
         this.setRegistryName(Ref.MODID, name);
         this.setTranslationKey(Ref.MODID + "." + name);
         this.canRepair = true;

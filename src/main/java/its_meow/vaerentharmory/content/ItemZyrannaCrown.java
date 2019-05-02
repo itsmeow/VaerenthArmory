@@ -1,6 +1,6 @@
-package its_meow.vaerenthitems.content;
+package its_meow.vaerentharmory.content;
 
-import its_meow.vaerenthitems.client.model.ModelCrown;
+import its_meow.vaerentharmory.client.model.ModelCrown;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -21,7 +21,7 @@ public class ItemZyrannaCrown extends ItemZyrannaArmor {
     
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type) {
-        return "vaerenthitems:textures/models/armor/" + name + ".png";
+        return "vaerentharmory:textures/models/armor/" + name + ".png";
     }
 
     @Override

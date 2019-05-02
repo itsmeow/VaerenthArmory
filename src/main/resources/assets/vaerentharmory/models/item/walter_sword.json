@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "vaerenthitems:items/walter_sword"
+        "layer0": "vaerentharmory:items/walter_sword"
     },
     "display": {
         "thirdperson_righthand": {
